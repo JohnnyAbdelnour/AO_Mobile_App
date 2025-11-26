@@ -1,7 +1,14 @@
+ feature/antoine-online-mvp-final
+import 'package:antoine_online_app/src/domain/repositories/catalog_repository.dart';
+import 'package:antoine_online_app/src/data/api/magento_api_client.dart';
+import 'package:antoine_online_app/src/data/models/catalog/category.dart';
+import 'package:antoine_online_app/src/data/models/catalog/product.dart';
+
 import '../../domain/repositories/catalog_repository.dart';
 import '../api/magento_api_client.dart';
 import '../models/catalog/category.dart';
 import '../models/catalog/product.dart';
+main
 
 class CatalogRepositoryImpl implements CatalogRepository {
   final MagentoApiClient _apiClient;
