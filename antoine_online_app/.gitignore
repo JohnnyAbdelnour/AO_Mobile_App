@@ -1,0 +1,28 @@
+# Dart tool directory
+.dart_tool/
+
+# Flutter tool directory
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Build directory
+build/
+
+# IDE specific files
+.idea/
+*.iml
+.vscode/
+
+# Flutter SDK
+flutter/
+
+# Other
+.packages
+pubspec.lock
+.metadata
+
+# Environment variables
+.env
+
+# Android local properties
+/android/local.properties
