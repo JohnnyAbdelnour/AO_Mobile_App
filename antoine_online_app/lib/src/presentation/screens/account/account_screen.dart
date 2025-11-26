@@ -16,7 +16,11 @@ class AccountScreen extends ConsumerWidget {
         data: (data) => Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
+ feature/antoine-online-mvp-final
             crossAxisAlignment: CrossAxisAlignment.start,
+
+            crossAxisAlignment: CrossAxisAlignment: CrossAxisAlignment.start,
+ main
             children: [
               Text('Name: ${data.firstname} ${data.lastname}'),
               Text('Email: ${data.email}'),
