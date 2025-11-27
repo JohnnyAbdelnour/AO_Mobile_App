@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:antoine_online_app/src/presentation/app_router.dart';
+feature/antoine-online-mvp-clean
+
  feature/antoine-online-mvp-final
+main
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
@@ -11,9 +14,12 @@ Future<void> main() async {
   await Hive.initFlutter();
   await Hive.openBox('cart');
 
+ feature/antoine-online-mvp-clean
+=======
 
 
 void main() {
+ main
  main
   runApp(const ProviderScope(child: MyApp()));
 }

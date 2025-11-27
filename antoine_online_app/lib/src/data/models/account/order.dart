@@ -1,4 +1,8 @@
+ feature/antoine-online-mvp-clean
+import 'package:antoine_online_app/src/data/models/cart/cart_item.dart';
+
 import '../cart/cart_item.dart';
+ main
 
 class Order {
   final int entityId;

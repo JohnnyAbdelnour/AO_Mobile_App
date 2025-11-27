@@ -4,6 +4,9 @@ import 'package:antoine_online_app/src/presentation/screens/catalog/category_lis
 import 'package:antoine_online_app/src/presentation/screens/cart/cart_screen.dart';
 import 'package:antoine_online_app/src/presentation/screens/account/account_screen.dart';
 import 'package:antoine_online_app/src/presentation/screens/checkout/checkout_screen.dart';
+feature/antoine-online-mvp-clean
+import 'package:antoine_online_app/src/presentation/screens/orders/order_history_screen.dart';
+main
 
 final router = GoRouter(
   initialLocation: '/',
@@ -28,5 +31,11 @@ final router = GoRouter(
       path: '/checkout',
       builder: (context, state) => const CheckoutScreen(),
     ),
+feature/antoine-online-mvp-clean
+    GoRoute(
+      path: '/orders',
+      builder: (context, state) => const OrderHistoryScreen(),
+    ),
+ main
   ],
 );
