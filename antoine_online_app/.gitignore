@@ -13,6 +13,12 @@ build/
 *.iml
 .vscode/
 
+feature/antoine-online-mvp-clean
+=======
+# Flutter SDK
+flutter/
+
+main
 # Other
 .packages
 pubspec.lock

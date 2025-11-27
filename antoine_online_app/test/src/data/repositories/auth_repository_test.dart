@@ -5,10 +5,15 @@ import 'package:antoine_online_app/src/data/repositories/auth/auth_repository_im
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:antoine_online_app/src/data/models/auth/login_request.dart';
 import 'package:dio/dio.dart';
+feature/antoine-online-mvp-clean
 import 'package:mockito/annotations.dart';
 import 'auth_repository_test.mocks.dart';
 
 @GenerateMocks([MagentoApiClient, FlutterSecureStorage])
+
+import 'auth_repository_test.mocks.dart';
+
+main
 void main() {
   late AuthRepositoryImpl authRepository;
   late MockMagentoApiClient mockApiClient;
